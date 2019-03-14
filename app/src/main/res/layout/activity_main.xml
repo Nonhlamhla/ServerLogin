@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp">
+
+                        <EditText
+                            android:id="@+id/ed_cell_Number"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_marginBottom="10dp"
+                            android:drawablePadding="16dp"
+                            android:drawableRight="@android:color/black"
+                            android:hint="Cell Phone Number"
+                            android:padding="8dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black"
+                            android:textSize="18sp"
+                            android:layout_marginTop="100dp"/>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:layout_marginTop="180dp">
+
+
+                        <EditText
+                            android:id="@+id/ed_pin_Number"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:drawablePadding="16dp"
+                            android:hint="Pin Number"
+                            android:padding="8dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black"
+                            android:textSize="18sp"
+                            android:layout_alignParentRight="true" />
+
+
+                    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="145dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true">
+
+        <Button
+            android:id="@+id/btn_Login"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.32"
+            android:background="@android:color/black"
+            android:elevation="0dp"
+            android:padding="8dp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
